@@ -30,3 +30,21 @@ Expected Solution -
 Findings - 
     ... TBD
     
+
+
+
+Setting up - 
+
+- Installing Locust 
+    - virtualenv locustvenv
+    - source locustvenv/bin/activate
+
+    - brew install libev 
+    - pip isntall locustio 
+
+
+- Running locust 
+    locust --host=http://localhost:port
+
+    Dashboard 
+    -  http://127.0.0.1:8089
